@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .app-logo {
+        cursor: default;
+        font-weight: bold;
+        font-variant: small-caps;
+        transition: all .5s ease;
+    }
+}
